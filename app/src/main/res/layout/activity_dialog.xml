@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MultipleDialog">
+
+    <Button
+        android:id="@+id/snackToastBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snake toast" />
+
+    <Button
+        android:id="@+id/dialogBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog" />
+    <Button
+        android:id="@+id/customDialogBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom dialog" />
+
+    <Button
+        android:id="@+id/customProgressDialogBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom progress dialog" />
+
+</LinearLayout>
